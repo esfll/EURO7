@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- [ЗАГЛУШКА] Схематичная заглушка карты. Заменить на статичный скриншот карты (map.webp + map.jpg). -->
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#d3d8de" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="#eceef0"/>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M-20 360 C 160 330, 260 250, 420 240 S 700 180, 820 120" stroke-width="22"/>
+    <path d="M180 -20 L 260 520" stroke-width="16"/>
+    <path d="M560 -20 C 540 140, 600 300, 520 520" stroke-width="16"/>
+    <path d="M-20 120 L 820 300" stroke-width="10"/>
+  </g>
+  <g fill="none" stroke="#c4cad1" stroke-linecap="round">
+    <path d="M-20 360 C 160 330, 260 250, 420 240 S 700 180, 820 120" stroke-width="2"/>
+  </g>
+  <rect x="300" y="300" width="120" height="70" fill="#dde1e5"/>
+  <rect x="610" y="330" width="140" height="90" fill="#dde1e5"/>
+  <rect x="40" y="170" width="110" height="80" fill="#dde1e5"/>
+  <g transform="translate(400 240)">
+    <circle r="34" fill="#e8731e" fill-opacity=".18"/>
+    <path d="M0 0 C -14 -18 -20 -28 -20 -38 a 20 20 0 0 1 40 0 c 0 10 -6 20 -20 38z" fill="#151a20"/>
+    <circle cy="-38" r="7" fill="#e8731e"/>
+  </g>
+  <rect x="24" y="24" width="300" height="56" fill="#151a20"/>
+  <text x="40" y="48" font-family="system-ui, Arial, sans-serif" font-size="16" font-weight="700" fill="#eef1f4">ООО «ЕВРО7» — офис</text>
+  <text x="40" y="68" font-family="monospace" font-size="12" fill="#fff1a8">[ЗАГЛУШКА] схема проезда</text>
+</svg>

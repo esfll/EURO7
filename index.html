@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ЧЕРНОВИК: при запуске сайта удалить строку ниже (см. README) -->
+  <meta name="robots" content="noindex">
+  <title>ООО «ЕВРО7» — межрегиональные перевозки технических газов</title>
+  <meta name="description" content="ООО «ЕВРО7»: межрегиональные грузовые автоперевозки по России. Тягачи и водители с необходимыми допусками для перевозки технических газов в цистернах заказчика.">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#151a20">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <!-- ============ ШАПКА ============ -->
+  <header class="header" id="top">
+    <div class="header__inner container">
+
+      <!-- Место под логотип. Замена: <img src="images/logo.svg" alt="ЕВРО7" width="140" height="40"> -->
+      <a class="logo" href="#top" aria-label="ЕВРО7 — в начало страницы">
+        <span class="logo__mark" aria-hidden="true">Е7</span>
+        <span class="logo__text">ЕВРО7</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основное меню">
+        <ul class="nav__list">
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#safety">Допуски</a></li>
+          <li><a href="#fleet">Автопарк</a></li>
+          <li><a href="#geo">География</a></li>
+          <li><a href="#process">Как работаем</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <!-- [ЗАГЛУШКА] телефон в href и в тексте -->
+      <a class="header__call btn btn--accent" href="tel:+79000000000">
+        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+        <span class="header__call-short">Позвонить</span>
+        <span class="header__call-full">+7 (900) 000-00-00</span>
+      </a>
+
+      <button class="burger" type="button" aria-controls="nav" aria-expanded="false" aria-label="Открыть меню">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 1. ПЕРВЫЙ ЭКРАН ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <p class="hero__eyebrow">ООО «ЕВРО7» · грузовые автоперевозки по России</p>
+          <h1 class="hero__title" id="hero-title">Межрегиональные перевозки технических газов</h1>
+          <p class="hero__lead">Предоставляем седельные тягачи и водителей с&nbsp;необходимыми допусками для перевозки аргона, кислорода и&nbsp;других технических газов в&nbsp;цистернах заказчика.</p>
+
+          <div class="hero__actions">
+            <!-- [ЗАГЛУШКА] телефон -->
+            <a class="btn btn--accent btn--lg" href="tel:+79000000000">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+              Позвонить
+            </a>
+            <!-- [ЗАГЛУШКА] почта -->
+            <a class="btn btn--ghost btn--lg" href="mailto:info@euro7.example?subject=%D0%97%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82%D0%B0%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B8">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.2V17h16V7.2l-8 5.3zM5.4 7l6.6 4.4L18.6 7z"/></svg>
+              Написать на почту
+            </a>
+          </div>
+
+          <dl class="facts">
+            <div class="facts__item">
+              <dt>Тягач и водитель</dt>
+              <dd>от «ЕВРО7»</dd>
+            </div>
+            <div class="facts__item">
+              <dt>Цистерна</dt>
+              <dd>заказчика</dd>
+            </div>
+            <div class="facts__item">
+              <dt>Работа</dt>
+              <dd>по договору</dd>
+            </div>
+            <div class="facts__item">
+              <dt>Стоимость</dt>
+              <dd>расчёт по запросу</dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- Фото первого экрана. Замена на реальное фото:
+        <picture>
+          <source srcset="images/hero.webp" type="image/webp">
+          <img src="images/hero.jpg" alt="Тягач ЕВРО7 с цистерной" width="1200" height="900" fetchpriority="high">
+        </picture>
+        -->
+        <div class="hero__media">
+          <div class="ph ph--dark ph--hero" role="img" aria-label="Место под фото тягача">
+            <span class="ph__label">Фото: тягач с цистерной заказчика<br><span class="stub">[ЗАГЛУШКА]</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. УСЛУГИ ============ -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__num">01 / Услуги</p>
+          <h2 class="section__title" id="services-title">Что мы делаем</h2>
+        </header>
+
+        <div class="cards cards--2">
+          <article class="card">
+            <p class="card__tag">Направление 1</p>
+            <h3 class="card__title">Межрегиональные грузовые перевозки</h3>
+            <p>Перевозки между регионами России на седельных тягачах. Маршрут, сроки и&nbsp;условия согласуем до начала рейса и&nbsp;фиксируем в&nbsp;договоре.</p>
+            <ul class="list">
+              <li>Планирование маршрута и графика рейса</li>
+              <li>Связь с диспетчером на всём маршруте</li>
+              <li>Сопроводительные и закрывающие документы</li>
+            </ul>
+            <p class="card__price">Расчёт стоимости по запросу</p>
+          </article>
+
+          <article class="card card--key">
+            <p class="card__tag">Основная специализация</p>
+            <h3 class="card__title">Перевозка технических газов в&nbsp;цистернах заказчика</h3>
+            <p>Аргон, кислород и&nbsp;другие технические газы. Цистерну предоставляет заказчик, «ЕВРО7»&nbsp;— тягач и&nbsp;водителя с&nbsp;необходимыми допусками.</p>
+            <ul class="list">
+              <li>Тягач, совместимый с цистерной заказчика</li>
+              <li>Водители с допусками к перевозке опасных грузов</li>
+              <li>Порядок приёмки и сдачи груза — по договору</li>
+            </ul>
+            <p class="card__price">Расчёт стоимости по запросу</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. ДОПУСКИ И БЕЗОПАСНОСТЬ ============ -->
+    <section class="section section--tint" id="safety" aria-labelledby="safety-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__num">02 / Допуски и безопасность</p>
+          <h2 class="section__title" id="safety-title">Безопасность — основа работы с газами</h2>
+          <p class="section__lead">Перевозка технических газов требует подготовленных водителей, исправной техники и&nbsp;чётко прописанных условий. Это наш порядок работы на каждом рейсе.</p>
+        </header>
+
+        <ul class="principles">
+          <li class="principle">
+            <span class="principle__num">01</span>
+            <h3 class="principle__title">Водители с допусками</h3>
+            <p>Рейсы выполняют водители с&nbsp;необходимыми допусками к&nbsp;перевозке опасных грузов.</p>
+          </li>
+          <li class="principle">
+            <span class="principle__num">02</span>
+            <h3 class="principle__title">Исправная техника</h3>
+            <p>Тягачи проходят техническое обслуживание и&nbsp;проверку перед выходом в&nbsp;рейс.</p>
+          </li>
+          <li class="principle">
+            <span class="principle__num">03</span>
+            <h3 class="principle__title">Согласованный маршрут</h3>
+            <p>Маршрут и&nbsp;график согласуем заранее. В&nbsp;пути с&nbsp;водителем на связи диспетчер.</p>
+          </li>
+          <li class="principle">
+            <span class="principle__num">04</span>
+            <h3 class="principle__title">Договор и ответственность</h3>
+            <p>Условия перевозки, приёмка груза и&nbsp;ответственность сторон закрепляются в&nbsp;договоре.</p>
+          </li>
+        </ul>
+
+        <h3 class="subhead">Документы и разрешения</h3>
+        <p class="muted">Копии документов предоставляем по запросу при заключении договора.</p>
+
+        <!-- Карточки документов: заменить названия, номера и превью.
+             Превью скана: <img src="images/doc-1.jpg" alt="..." width="600" height="848" loading="lazy"> -->
+        <ul class="docs">
+          <li class="doc">
+            <div class="ph ph--doc" role="img" aria-label="Место под скан документа">
+              <span class="ph__label">Скан документа<br><span class="stub">[ЗАГЛУШКА]</span></span>
+            </div>
+            <div class="doc__body">
+              <h4 class="doc__title">Наименование документа <span class="stub">[ЗАГЛУШКА]</span></h4>
+              <dl class="doc__meta">
+                <div><dt>Номер</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+                <div><dt>Дата выдачи</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+                <div><dt>Кем выдан</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              </dl>
+            </div>
+          </li>
+          <li class="doc">
+            <div class="ph ph--doc" role="img" aria-label="Место под скан документа">
+              <span class="ph__label">Скан документа<br><span class="stub">[ЗАГЛУШКА]</span></span>
+            </div>
+            <div class="doc__body">
+              <h4 class="doc__title">Наименование документа <span class="stub">[ЗАГЛУШКА]</span></h4>
+              <dl class="doc__meta">
+                <div><dt>Номер</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+                <div><dt>Дата выдачи</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+                <div><dt>Кем выдан</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              </dl>
+            </div>
+          </li>
+          <li class="doc">
+            <div class="ph ph--doc" role="img" aria-label="Место под скан документа">
+              <span class="ph__label">Скан документа<br><span class="stub">[ЗАГЛУШКА]</span></span>
+            </div>
+            <div class="doc__body">
+              <h4 class="doc__title">Наименование документа <span class="stub">[ЗАГЛУШКА]</span></h4>
+              <dl class="doc__meta">
+                <div><dt>Номер</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+                <div><dt>Дата выдачи</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+                <div><dt>Кем выдан</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              </dl>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 4. АВТОПАРК ============ -->
+    <section class="section" id="fleet" aria-labelledby="fleet-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__num">03 / Автопарк</p>
+          <h2 class="section__title" id="fleet-title">Седельные тягачи</h2>
+          <p class="section__lead">Цистерны для перевозки газов предоставляет заказчик. Совместимость тягача с&nbsp;цистерной уточняем до начала рейса.</p>
+        </header>
+
+        <!-- Фото техники. Замена плейсхолдера:
+        <picture>
+          <source srcset="images/truck-1.webp" type="image/webp">
+          <img src="images/truck-1.jpg" alt="Седельный тягач ..." width="800" height="600" loading="lazy">
+        </picture>
+        -->
+        <ul class="cards cards--3">
+          <li class="card card--fleet">
+            <div class="ph ph--photo" role="img" aria-label="Место под фото тягача">
+              <span class="ph__label">Фото тягача<br><span class="stub">[ЗАГЛУШКА]</span></span>
+            </div>
+            <h3 class="card__title">Седельный тягач <span class="stub">[ЗАГЛУШКА: марка, модель]</span></h3>
+            <dl class="specs">
+              <div><dt>Колёсная формула</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              <div><dt>Экологический класс</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              <div><dt>Единиц в парке</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+            </dl>
+          </li>
+          <li class="card card--fleet">
+            <div class="ph ph--photo" role="img" aria-label="Место под фото тягача">
+              <span class="ph__label">Фото тягача<br><span class="stub">[ЗАГЛУШКА]</span></span>
+            </div>
+            <h3 class="card__title">Седельный тягач <span class="stub">[ЗАГЛУШКА: марка, модель]</span></h3>
+            <dl class="specs">
+              <div><dt>Колёсная формула</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              <div><dt>Экологический класс</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              <div><dt>Единиц в парке</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+            </dl>
+          </li>
+          <li class="card card--fleet">
+            <div class="ph ph--photo" role="img" aria-label="Место под фото тягача">
+              <span class="ph__label">Фото тягача<br><span class="stub">[ЗАГЛУШКА]</span></span>
+            </div>
+            <h3 class="card__title">Седельный тягач <span class="stub">[ЗАГЛУШКА: марка, модель]</span></h3>
+            <dl class="specs">
+              <div><dt>Колёсная формула</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              <div><dt>Экологический класс</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+              <div><dt>Единиц в парке</dt><dd><span class="stub">[ЗАГЛУШКА]</span></dd></div>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 5. ГЕОГРАФИЯ ============ -->
+    <section class="section section--dark" id="geo" aria-labelledby="geo-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__num">04 / География</p>
+          <h2 class="section__title" id="geo-title">Работаем в регионах России</h2>
+          <p class="section__lead">Выполняем межрегиональные рейсы по направлениям ниже. Маршрут уточняйте у&nbsp;диспетчера.</p>
+        </header>
+
+        <!-- [ЗАГЛУШКА] заменить список на реальные регионы работы -->
+        <ul class="regions">
+          <li>Москва и Московская область <span class="stub">[ЗАГЛУШКА]</span></li>
+          <li>Санкт-Петербург и Ленинградская область <span class="stub">[ЗАГЛУШКА]</span></li>
+          <li>Центральный федеральный округ <span class="stub">[ЗАГЛУШКА]</span></li>
+          <li>Приволжский федеральный округ <span class="stub">[ЗАГЛУШКА]</span></li>
+          <li>Уральский федеральный округ <span class="stub">[ЗАГЛУШКА]</span></li>
+          <li>Южный федеральный округ <span class="stub">[ЗАГЛУШКА]</span></li>
+        </ul>
+
+        <p class="geo__note">Нужен маршрут, которого нет в списке? Позвоните диспетчеру&nbsp;— обсудим.</p>
+        <!-- [ЗАГЛУШКА] телефон -->
+        <a class="btn btn--accent" href="tel:+79000000000">Связаться с диспетчером</a>
+      </div>
+    </section>
+
+    <!-- ============ 6. КАК МЫ РАБОТАЕМ ============ -->
+    <section class="section" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__num">05 / Порядок работы</p>
+          <h2 class="section__title" id="process-title">Как мы работаем</h2>
+        </header>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <h3 class="step__title">Заявка</h3>
+            <p>Позвоните или напишите на почту: маршрут, вид газа, даты, характеристики цистерны.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <h3 class="step__title">Расчёт</h3>
+            <p>Рассчитываем стоимость и&nbsp;согласуем условия рейса: сроки, тягач, водителя.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <h3 class="step__title">Договор</h3>
+            <p>Заключаем договор перевозки с&nbsp;условиями, порядком приёмки и&nbsp;ответственностью сторон.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">4</span>
+            <h3 class="step__title">Рейс</h3>
+            <p>Подаём тягач с&nbsp;водителем, выполняем перевозку, передаём закрывающие документы.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 7. КОНТАКТЫ ============ -->
+    <section class="section section--tint" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__num">06 / Контакты</p>
+          <h2 class="section__title" id="contacts-title">Контакты</h2>
+          <p class="section__lead">Расчёт стоимости по запросу. Позвоните или напишите&nbsp;— ответим и&nbsp;подготовим предложение.</p>
+        </header>
+
+        <div class="contacts">
+          <dl class="contacts__list">
+            <div class="contacts__row">
+              <dt>Телефон</dt>
+              <!-- [ЗАГЛУШКА] -->
+              <dd><a class="contacts__link" href="tel:+79000000000">+7 (900) 000-00-00</a> <span class="stub">[ЗАГЛУШКА]</span></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Почта</dt>
+              <!-- [ЗАГЛУШКА] -->
+              <dd><a class="contacts__link" href="mailto:info@euro7.example">info@euro7.example</a> <span class="stub">[ЗАГЛУШКА]</span></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Адрес офиса</dt>
+              <dd>г. Москва, ул. Примерная, д. 1, офис 1 <span class="stub">[ЗАГЛУШКА]</span></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Часы работы</dt>
+              <dd>Офис: пн–пт, 9:00–18:00 <span class="stub">[ЗАГЛУШКА]</span><br>Диспетчерская: круглосуточно <span class="stub">[ЗАГЛУШКА]</span></dd>
+            </div>
+          </dl>
+
+          <figure class="map">
+            <!-- Статичная картинка вместо виджета карты. Заменить на скриншот карты: images/map.jpg / images/map.webp -->
+            <img class="map__img" src="images/map-placeholder.svg" alt="Схема проезда к офису" width="800" height="500" loading="lazy">
+            <figcaption class="map__caption">
+              <span>Схема проезда <span class="stub">[ЗАГЛУШКА]</span></span>
+              <!-- [ЗАГЛУШКА] координаты офиса в параметре rtext: ~широта,долгота -->
+              <a class="btn btn--dark" href="https://yandex.ru/maps/?rtext=~55.755819%2C37.617644&amp;rtt=auto" target="_blank" rel="noopener noreferrer">Построить маршрут</a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ 8. ПОДВАЛ ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo logo--footer">
+          <span class="logo__mark" aria-hidden="true">Е7</span>
+          <span class="logo__text">ЕВРО7</span>
+        </span>
+        <p>Межрегиональные грузовые автоперевозки. Перевозка технических газов в&nbsp;цистернах заказчика.</p>
+      </div>
+
+      <dl class="requisites">
+        <div><dt>Полное наименование</dt><dd>Общество с ограниченной ответственностью «ЕВРО7»</dd></div>
+        <div><dt>ИНН</dt><dd>0000000000 <span class="stub">[ЗАГЛУШКА]</span></dd></div>
+        <div><dt>ОГРН</dt><dd>0000000000000 <span class="stub">[ЗАГЛУШКА]</span></dd></div>
+        <div><dt>Юридический адрес</dt><dd>000000, г. Москва, ул. Примерная, д. 1 <span class="stub">[ЗАГЛУШКА]</span></dd></div>
+      </dl>
+
+      <div class="footer__bottom">
+        <p>© 2026 ООО «ЕВРО7»</p>
+        <p>Информация на сайте носит справочный характер и не является публичной офертой.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>
