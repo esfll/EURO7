@@ -25,6 +25,6 @@
     <circle cy="-38" r="7" fill="#e8731e"/>
   </g>
   <rect x="24" y="24" width="300" height="56" fill="#151a20"/>
-  <text x="40" y="48" font-family="system-ui, Arial, sans-serif" font-size="16" font-weight="700" fill="#eef1f4">ООО «ЕВРО7» — офис</text>
+  <text x="40" y="48" font-family="system-ui, Arial, sans-serif" font-size="16" font-weight="700" fill="#eef1f4">ООО «ЕВРО7-НЛК» — офис</text>
   <text x="40" y="68" font-family="monospace" font-size="12" fill="#fff1a8">[ЗАГЛУШКА] схема проезда</text>
 </svg>
